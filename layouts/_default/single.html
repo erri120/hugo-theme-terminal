@@ -54,9 +54,11 @@
   </article>
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
-    {{ partial "posts_pagination.html" . }}
+  {{ partial "posts_pagination.html" . }}
   {{ end }}
 
+  <hr/>
+  {{ partial "support.html" . }}
   {{ partial "comments.html" . }}
 </main>
 {{ end }}
