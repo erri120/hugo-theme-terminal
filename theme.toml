@@ -6,6 +6,7 @@ homepage = "https://github.com/panr/hugo-theme-terminal/"
 tags = ["blog", "clean", "customizable", "dark", "highlighting", "minimal", "monotone", "multilingual", "personal", "responsive", "simple", "technical", "retro"]
 features = ["blog", "shortcode", "syntax highlighting"]
 min_version = 0.74
+enableRobotsTXT = true
 
 [author]
   name = "panr"
